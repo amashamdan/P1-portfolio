@@ -1,4 +1,13 @@
-/*Script to show details about a project once its photo is hovered*/
+for (var project in featuredProjects) {
+	var section = '#' + featuredProjects[project].section;
+	var title = featuredProjects[project].title;
+	smallTitle = title.toLowerCase();
+	smallTitle = smallTitle.replace(/ /g, "-");
+	var link = featuredProjects[project].link; 
+	$(section).append('<div class="col-3-center-align"><img class="project-photo" id="'+ smallTitle +'><" src="images/'+ smallTitle +'.jpg" alt="A thumbnail of project"><h3 class="project-title">'+ title +'</h3><a class="project-link" target="blank" href="'+link+'">Project link</a></div>');
+}
+
+/*Script to show details about a project once its photo is hovered
 $("#online-resume").hover(function(){
 	var top = (($("#online-resume").position()).top) + $("#online-resume").height() + 55;
 	$(".online-resume-details").css({ "top": top+"px"});
@@ -33,8 +42,8 @@ $("#project6").hover(function(){
 	var top = (($("#project6").position()).top) + $("#project6").height() + 55;
 	$(".project6-details").css({ "top": top+"px"});
 	$(".project6-details").fadeToggle();
-});
-/*script for the functionality of the drawer*/
+});*/
+/*script for the functionality of the drawer
 var menu = document.querySelector(".menu");
 var header = document.querySelector(".header");
 var photo = document.querySelector(".photo");
@@ -65,3 +74,4 @@ projects.addEventListener('click', function(e) {
 	drawer.classList.toggle('open');
 	e.stopPropagation();
 })
+*/
