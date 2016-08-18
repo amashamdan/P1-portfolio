@@ -64,6 +64,8 @@
 
 #drawer {
 	width: 300px;
+	height: 500px;
+	overflow-y: auto;
 	background-color: white;
 	border: 1px solid gray;
 	position: absolute;
@@ -167,6 +169,7 @@ hr {
 .project-link {
 	margin: 10px 0 40px 0;
 	text-decoration: none;
+	font-size: 0.9em;
 }
 
 /*Footer section*/
