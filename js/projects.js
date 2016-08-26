@@ -19,6 +19,12 @@ var featuredProjects = [
 	},
 	{
 		section: "projects-thumbs",
+		title: "U.S. GDP BAR CHART",
+		link: "https://amashamdan.github.io/us-gdp/",
+		description: "A D3.js-created chart showing the quarterly GDP in the United States between 1947 and 2015."
+	},
+	{
+		section: "projects-thumbs",
 		title: "RECIPE BOX",
 		link: "http://amashamdan.github.io/recipe-box/",
 		description: "A responsive single page app which enables the user to view, edit, delete and add new recipes. Built with React.js and Sass."
