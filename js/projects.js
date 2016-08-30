@@ -19,6 +19,12 @@ var featuredProjects = [
 	},
 	{
 		section: "projects-thumbs",
+		title: "ALPE D'HUEZ CYCLISTS SCATTER CHART",
+		link: "https://amashamdan.github.io/alpe-cyclists/",
+		description: "A D3.js-created chart showing the Alpe d'Huez Cyclists fastest times."
+	},
+	{
+		section: "projects-thumbs",
 		title: "U.S. GDP BAR CHART",
 		link: "https://amashamdan.github.io/us-gdp/",
 		description: "A D3.js-created chart showing the quarterly GDP in the United States between 1947 and 2015."
