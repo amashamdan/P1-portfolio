@@ -13,6 +13,12 @@ var featuredProjects = [
 	},
 	{
 		section: "featured-projects-thumbs",
+		title: "GLOBAL SURFACE TEMPERATURE HEAT MAP",
+		link: "https://amashamdan.github.io/global-temperature/",
+		description: "A D3.js created heat map displaying the global monthly surface temperature in the period 1753-2015."
+	},
+	{
+		section: "projects-thumbs",
 		title: "GAME OF LIFE",
 		link: "http://amashamdan.github.io/game-of-life/",
 		description: "Conway's Game of Life which determines the future state of a group of dead and alive cells based on their current state. Built with React.js and Sass."
