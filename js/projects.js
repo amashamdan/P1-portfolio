@@ -19,6 +19,12 @@ var featuredProjects = [
 	},
 	{
 		section: "projects-thumbs",
+		title: "NATIONAL CONTIGUITY",
+		link: "https://amashamdan.github.io/global-contiguity/",
+		description: "A D3.js-created force-chart showing how all countries in the world share borders with each other."
+	},
+	{
+		section: "projects-thumbs",
 		title: "GAME OF LIFE",
 		link: "http://amashamdan.github.io/game-of-life/",
 		description: "Conway's Game of Life which determines the future state of a group of dead and alive cells based on their current state. Built with React.js and Sass."
