@@ -1,6 +1,12 @@
 var featuredProjects = [
 	{
 		section: "featured-projects-thumbs",
+		title: "VOTING VORTEX",
+		link: "https://voting-vortex.herokuapp.com/",
+		description: "A full stack application to view, vote and create polls. Built with Express.JS, MongoDB and chart.js."
+	},
+	{
+		section: "featured-projects-thumbs",
 		title: "NEIGHBOURHOOD MAP",
 		link: "http://amashamdan.github.io/p5-neighbourhood-map/",
 		description: "A responsive single page app implementing MVVM archetictural pattern and AJAX to search for places of interest in a certain city. APIs used: Google maps JavaScript API, OpenWeatherMap API and New York Times API."
