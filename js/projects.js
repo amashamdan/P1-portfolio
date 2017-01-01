@@ -1,6 +1,12 @@
 var featuredProjects = [
 	{
 		section: "featured-projects-thumbs",
+		title: "BOOK VAULT",
+		link: "https://book-vault.herokuapp.com/",
+		description: "A responsive full stack app to add and request trades with others. Built using Express JS, Mongo DB and Google Books API."
+	},
+	{
+		section: "featured-projects-thumbs",
 		title: "VOTING VORTEX",
 		link: "https://voting-vortex.herokuapp.com/",
 		description: "A full stack application to view, vote and create polls. Built with Express.JS, MongoDB and chart.js."
